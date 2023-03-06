@@ -1,1 +1,2 @@
 console.log("hello world");
+let messages = ["A tiger has stripes down to its skin","A group of rhinos is called a crash", "A chameleon changes colour dependant on its mood", "A giraffe constricts its veins when drinking to stop its head exploding"]
