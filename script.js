@@ -1,2 +1,12 @@
 console.log("hello world");
-let messages = ["A tiger has stripes down to its skin","A group of rhinos is called a crash", "A chameleon changes colour dependant on its mood", "A giraffe constricts its veins when drinking to stop its head exploding"]
+let animal =["tiger", "rhino", "zebra", "owl", "hippos", "giraffes"]
+let group =["prowl", "crash", "dazzle", "parliment", "jacuze", "skyscrapper"]
+let reason =["aggresive stalking", "alwasy running into each other", "their patterns", "their prestigous look", "bubbles", "their heads being in the clouds"]
+let message = () => {
+    let i = Math.floor(Math.random() * 6);
+    let j = Math.floor(Math.random() * 6);
+    let v = Math.floor(Math.random() * 6);
+    return ( "A group of " + animal[i] + "s is called a " + group[j] + " this is due to " + reason[v]);
+}
+
+console.log(message());
