@@ -6,7 +6,7 @@ let message = () => {
     let i = Math.floor(Math.random() * 6);
     let j = Math.floor(Math.random() * 6);
     let v = Math.floor(Math.random() * 6);
-    return ( "A group of " + animal[i] + "s is called a " + group[j] + " this is due to " + reason[v]);
+    document.getElementById("fact").innerHTML= ( "A group of " + animal[i] + "s is called a " + group[j] + " this is due to " + reason[v]);
 }
 
 console.log(message());
